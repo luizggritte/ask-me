@@ -1,0 +1,22 @@
+{
+  "name": "askme",
+  "version": "1.0.0",
+  "description": "A platform for ask and answer questions to everyone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Luiz Gustavo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
